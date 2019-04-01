@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		DC5A7F7F224EE55400825025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A7F7E224EE55400825025 /* AppDelegate.swift */; };
-		DC5A7F81224EE55400825025 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A7F80224EE55400825025 /* ViewController.swift */; };
+		DC5A7F81224EE55400825025 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A7F80224EE55400825025 /* PlayersViewController.swift */; };
 		DC5A7F84224EE55400825025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5A7F82224EE55400825025 /* Main.storyboard */; };
 		DC5A7F87224EE55400825025 /* MaddenRatings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC5A7F85224EE55400825025 /* MaddenRatings.xcdatamodeld */; };
 		DC5A7F89224EE55500825025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5A7F88224EE55500825025 /* Assets.xcassets */; };
 		DC5A7F8C224EE55500825025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5A7F8A224EE55500825025 /* LaunchScreen.storyboard */; };
 		DC5A7F97224EE55600825025 /* MaddenRatingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A7F96224EE55600825025 /* MaddenRatingsTests.swift */; };
 		DC5A7FA2224EE55600825025 /* MaddenRatingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A7FA1224EE55600825025 /* MaddenRatingsUITests.swift */; };
+		DC5A7FB0224EE63800825025 /* Roster.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A7FAF224EE63800825025 /* Roster.swift */; };
+		DC5A7FB2224EE80B00825025 /* PlayersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A7FB1224EE80B00825025 /* PlayersViewModel.swift */; };
+		DC5A7FB4224EE82A00825025 /* PlayerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A7FB3224EE82A00825025 /* PlayerCollectionViewCell.swift */; };
+		DC5A7FB6224EE8C100825025 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A7FB5224EE8C100825025 /* UIImageViewExtension.swift */; };
+		DC5A7FB8224EE94500825025 /* Colours.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A7FB7224EE94500825025 /* Colours.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,7 @@
 /* Begin PBXFileReference section */
 		DC5A7F7B224EE55400825025 /* MaddenRatings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaddenRatings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC5A7F7E224EE55400825025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC5A7F80224EE55400825025 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC5A7F80224EE55400825025 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
 		DC5A7F83224EE55400825025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC5A7F86224EE55400825025 /* MaddenRatings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MaddenRatings.xcdatamodel; sourceTree = "<group>"; };
 		DC5A7F88224EE55500825025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		DC5A7F9D224EE55600825025 /* MaddenRatingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaddenRatingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC5A7FA1224EE55600825025 /* MaddenRatingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaddenRatingsUITests.swift; sourceTree = "<group>"; };
 		DC5A7FA3224EE55600825025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC5A7FAF224EE63800825025 /* Roster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roster.swift; sourceTree = "<group>"; };
+		DC5A7FB1224EE80B00825025 /* PlayersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewModel.swift; sourceTree = "<group>"; };
+		DC5A7FB3224EE82A00825025 /* PlayerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC5A7FB5224EE8C100825025 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		DC5A7FB7224EE94500825025 /* Colours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colours.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +110,13 @@
 			isa = PBXGroup;
 			children = (
 				DC5A7F7E224EE55400825025 /* AppDelegate.swift */,
-				DC5A7F80224EE55400825025 /* ViewController.swift */,
+				DC5A7F80224EE55400825025 /* PlayersViewController.swift */,
+				DC5A7FB1224EE80B00825025 /* PlayersViewModel.swift */,
+				DC5A7FB3224EE82A00825025 /* PlayerCollectionViewCell.swift */,
+				DC5A7FAF224EE63800825025 /* Roster.swift */,
 				DC5A7F82224EE55400825025 /* Main.storyboard */,
+				DC5A7FB5224EE8C100825025 /* UIImageViewExtension.swift */,
+				DC5A7FB7224EE94500825025 /* Colours.swift */,
 				DC5A7F88224EE55500825025 /* Assets.xcassets */,
 				DC5A7F8A224EE55500825025 /* LaunchScreen.storyboard */,
 				DC5A7F8D224EE55500825025 /* Info.plist */,
@@ -260,8 +275,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC5A7F87224EE55400825025 /* MaddenRatings.xcdatamodeld in Sources */,
-				DC5A7F81224EE55400825025 /* ViewController.swift in Sources */,
+				DC5A7FB6224EE8C100825025 /* UIImageViewExtension.swift in Sources */,
+				DC5A7F81224EE55400825025 /* PlayersViewController.swift in Sources */,
+				DC5A7FB2224EE80B00825025 /* PlayersViewModel.swift in Sources */,
+				DC5A7FB0224EE63800825025 /* Roster.swift in Sources */,
 				DC5A7F7F224EE55400825025 /* AppDelegate.swift in Sources */,
+				DC5A7FB4224EE82A00825025 /* PlayerCollectionViewCell.swift in Sources */,
+				DC5A7FB8224EE94500825025 /* Colours.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
